@@ -1,0 +1,50 @@
+:root{
+    --header-bar-height: 50px;
+    --header-bar-color:#434a54;
+    --navbar-height:77px;
+    --primary-color-header:#434a54;
+    --second-color-block:#4a515b;
+    --text-color:#a3a3a3;
+    --berlin-color:#ba71da;
+    --berlin-pale-color:#c17fde;
+    --delhi-color:#14b9d5;
+    --delhi-pale-color:#2cc0d9;
+    --london-color:#f76570;
+    --london-pale-color:#f8757f;
+    --cuba-color:#1bbc9b;
+    --cuba-pale-color:#32c3a5;
+    --rome-color:#f3a46b;
+    --rome-pale-color:#f4ad7a;
+    --dubai-color:#ffd205;
+    --dubai-pale-color:#ffd71e;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    /* Hack :))) */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.btn{
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: 1px solid var(--text-color);
+    display: flex;
+    padding: 20px;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.btn:hover{
+    background-color: var(--cuba-color);
+    color: #fff;
+}
