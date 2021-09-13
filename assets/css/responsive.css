@@ -1,0 +1,25 @@
+/* Mobile and Tablet */
+@media (max-width:1024px)
+{
+   .header__container,
+   .navbar-list,
+   .promotion-search
+   {
+       display: none;
+   } 
+   .navbar{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+}
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px)
+{
+    
+}
+/* Mobile */
+@media (max-width:739px)
+{
+
+}

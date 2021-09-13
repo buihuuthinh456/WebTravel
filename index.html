@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./assets/css/grid-system.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     <div class="header__container">
         <div class="header-bar-container grid wide">
             <div class="row header-bar">
-                <div class="col l-6 header-bar-left">
+                <div class="col l-6  header-bar-left">
                     <div class="header-bar-left__item">
                         <a href="#" class="header-bar-left__item-icon ti-credit-card"></a>
                         <a href="#" class="header-bar-left__item-title">Payment Options</a>
@@ -42,7 +42,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col l-6 header-bar-right">
+                <div class="col l-6  header-bar-right">
                     <div class="header-bar-right__item">
                         <a href="#" class="header-bar-right__item-booking">
                             My Bookings
@@ -343,11 +343,11 @@
             <div class="promotion-search ">
                 <div class="search-container grid wide">
                     <div class="row search-option">
-                        <div for="checkbox-basic" class="search-option__basic js-search-option__basic col l-2 --active">
-                            <span class="search-option__basic-icon ti-search"></span>
+                        <div  class="search-option__basic js-search-option__basic col l-2 m-4 c-4 --active">
+                            <span class="search-option__basic-icon ti-search "></span>
                             Quick Search
                         </div>
-                        <div for="checkbox-advanced" class="search-option__advance js-search-option__advance col l-2">
+                        <div  class="search-option__advance js-search-option__advance col m-4 c-4 l-2">
                             <span class="search-option__advance-icon ti-menu-alt"></span>
                             Advanced
                         </div>
@@ -356,12 +356,12 @@
                         <div class="col l-2"></div>
                         <div class="col l-2"></div>
                     </div>
-                    <div class="basic-container js-basic-container show-container grid wide">
+                    <div class="basic-container js-basic-container active-option grid wide">
                         <div class="row  search-basic-container">
-                            <div class="search-basic col l-3">
-                                <input type="text" class="search-basic__keywords " placeholder="Insert Keywords">
+                            <div class="search-basic col l-3 m-12 c-12">
+                                    <input type="text" class="search-basic__keywords " placeholder="Insert Keywords">
                             </div>
-                            <div class="search-basic col l-3">
+                            <div class="search-basic col l-3 m-12 c-12">
                                 <select name="Destiantion" class="search-basic__destination ">
                                     <option value="1">All Destination</option>
                                     <option value="2">Europte</option>
@@ -373,7 +373,7 @@
                                     <option value="32">Oceania</option>
                                 </select>
                             </div>
-                            <div class="search-basic col l-3">
+                            <div class="search-basic col l-3 m-12 c-12">
                                 <select name="Typologies" class="search-basic__typologies ">
                                     <option value="1">All Typologies</option>
                                     <option value="2">Relax</option>
@@ -382,17 +382,17 @@
                                     <option value="16">History</option>
                                 </select>
                             </div>
-                            <div class="search-basic col l-3">
+                            <div class="search-basic col l-3 m-12 c-12">
                                 <span class="search-basic__btn">Search</span>
                             </div>
                         </div>
                     </div>
                     <div class="advanced-container js-advanced-container grid wide">
-                        <div class="row  search-advanced-container">
-                            <div class="search-advanced col l-3">
+                        <div class="row search-advanced-container">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <input type="text" class="search-advanced__keywords " placeholder="Insert Keywords">
                             </div>
-                            <div class="search-advanced col l-3">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="Destiantion" class="search-advanced__destination ">
                                     <option value="1">All Destination</option>
                                     <option value="2">Europte</option>
@@ -404,7 +404,7 @@
                                     <option value="32">Oceania</option>
                                 </select>
                             </div>
-                            <div class="search-advanced col l-3">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="Typologies" class="search-advanced__typologies ">
                                     <option value="1">All Typologies</option>
                                     <option value="2">Relax</option>
@@ -413,7 +413,7 @@
                                     <option value="16">History</option>
                                 </select>
                             </div>
-                            <div class="search-advanced col l-3">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="All Duration" class="search-advanced__typologies ">
                                     <option value="1">All Duration</option>
                                     <option value="2">1 - 1 Day</option>
@@ -422,7 +422,7 @@
                                     <option value="16">9 - 12 Day</option>
                                 </select>
                             </div>
-                            <div class="search-advanced col l-3">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="Difficult" class="search-advanced__typologies ">
                                     <option value="1">All Difficult</option>
                                     <option value="2">High</option>
@@ -430,7 +430,7 @@
                                     <option value="8">Medium</option>
                                 </select>
                             </div>
-                            <div class="search-advanced col l-3">
+                            <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="Age" class="search-advanced__typologies ">
                                     <option value="1">All Min Age</option>
                                     <option value="2">10 Years</option>
@@ -438,7 +438,7 @@
                                     <option value="8">3 Years</option>
                                 </select>
                             </div>
-                            <div class="search-advanced col l-6">
+                            <div class="search-advanced col l-6 m-12 c-3">
                                 <span class="search-advanced__btn">Search</span>
                             </div>
                         </div>
@@ -462,7 +462,7 @@
             <!-- Content Item -->
             <div class="grid wide promotion-content-item-container">
                 <div class="row">
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/berlin.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -488,7 +488,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/new-delhi.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -514,7 +514,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/LonDon.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -540,7 +540,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/cuba.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -566,7 +566,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/rome.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -592,7 +592,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/cuba.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -651,25 +651,25 @@
     <!-- Content 2 -->
     <div class="grid wide content2-container">
         <div class="row">
-            <div class="col l-3 ">
+            <div class="col l-3 m-12 c-12 ">
                 <div class="content2-item">
                     <img src="./assets/img/oceania.jpg" alt="Ocenia" class="content2-item__img">
                     <a href="#" class="content2-item__name">Oceania</a>
                 </div>
             </div>
-            <div class="col l-3 ">
+            <div class="col l-3 m-12 c-12 ">
                 <div class="content2-item">
                     <img src="./assets/img/africa.jpg" alt="Ocenia" class="content2-item__img">
                     <a href="#" class="content2-item__name">Africa</a>
                 </div>
             </div>
-            <div class="col l-3 ">
+            <div class="col l-3 m-12 c-12 ">
                 <div class="content2-item">
                     <img src="./assets/img/america.jpg" alt="Ocenia" class="content2-item__img">
                     <a href="#" class="content2-item__name">America</a>
                 </div>
             </div>
-            <div class="col l-3 ">
+            <div class="col l-3 m-12 c-12 ">
                 <div class="content2-item">
                     <img src="./assets/img/asia.jpg" alt="Ocenia" class="content2-item__img">
                     <a href="#" class="content2-item__name">Asia</a>
@@ -733,18 +733,18 @@
         <div class="row">
             <div class="col l-3 form-register-container">
                 <div class="form-register">
-                    <div class="form-request">
+                    <div class="form-request --active js-form-request">
                         <div class="form-request__btn">
                             REQUEST
                         </div>
                     </div>
-                    <div class="form-contact">
+                    <div class="form-contact js-form-contact  ">
                         <i class="ti-mobile form-contact__icon"></i>
                         <div class="form-contact__btn">
                             CONTACT
                         </div>
                     </div>
-                    <form  class="input-request --active" >
+                    <form  class="input-request js-input-request --active" >
                         <input required type="text" class="input-request__name" placeholder="Name">
                         <input required type="email" class="input-request__mail" placeholder="Mail">
                         <input required type="text" class="input-request__guests" placeholder="Guests">
@@ -760,7 +760,7 @@
                         placeholder="Message"></textarea>
                         <input type="submit"  value="SEND NOW" class="input-request__submit">
                     </form>
-                    <div class="input-contact">
+                    <div class="input-contact js-input-contact ">
                         <h3 class="contact-numberphone">
                             +51 2383484
                         </h3>
@@ -893,8 +893,57 @@
             </div>
         </div>
         <div class="copyright grid wide">
-            © Copyright 2018 nicdark.com
+            © Copyright 2021 nicdark.com
         </div>
     </div>
+
+    <script>
+                        // js-basic-container  active-option
+                        // js-advanced-container
+                        // js-search-option__advance
+                        // js-search-option__basic
+        const BasicSearch = document.querySelector('.js-search-option__basic')
+        const AdvancedSearch = document.querySelector('.js-search-option__advance')
+        const BasicContainer = document.querySelector('.js-basic-container')
+        const AdvancedContainer = document.querySelector('.js-advanced-container')
+
+        function ShowBasicContainer(){
+            BasicContainer.classList.add('active-option')
+            AdvancedContainer.classList.remove('active-option')
+            BasicSearch.classList.add('--active')
+            AdvancedSearch.classList.remove('--active')
+        }
+        function ShowAdvancedContainer(){
+            AdvancedContainer.classList.add('active-option')
+            BasicContainer.classList.remove('active-option')
+            AdvancedSearch.classList.add('--active')
+            BasicSearch.classList.remove('--active')
+        }
+        BasicSearch.addEventListener('click',ShowBasicContainer)
+        AdvancedSearch.addEventListener('click',ShowAdvancedContainer)
+                        // js-form-request
+                        // js-form-contact
+                        // js-input-request
+                        // js-input-contact
+        const FormRequest = document.querySelector('.js-form-request')
+        const FormContact = document.querySelector('.js-form-contact')
+        const InputRequest = document.querySelector('.js-input-request')
+        const InputContact = document.querySelector('.js-input-contact')
+
+        function ShowRequest(){
+            FormRequest.classList.add('--active')
+            FormContact.classList.remove('--active')
+            InputRequest.classList.add('--active')
+            InputContact.classList.remove('--active')
+        }
+        function ShowContact(){
+            FormContact.classList.add('--active')
+            FormRequest.classList.remove('--active')
+            InputContact.classList.add('--active')
+            InputRequest.classList.remove('--active')
+        }
+        FormRequest.addEventListener('click',ShowRequest)
+        FormContact.addEventListener('click',ShowContact)
+    </script>
 </body>
 </html>
