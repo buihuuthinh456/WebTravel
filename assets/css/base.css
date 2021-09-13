@@ -1,9 +1,12 @@
 :root{
     --header-bar-height: 50px;
+    --footer-bar-height:250px;
+    --footer-bar-contact-height:200px;
     --header-bar-color:#434a54;
     --navbar-height:77px;
     --primary-color-header:#434a54;
     --second-color-block:#4a515b;
+    --color-topic-title:#5e6d81;
     --text-color:#a3a3a3;
     --berlin-color:#ba71da;
     --berlin-pale-color:#c17fde;
@@ -48,3 +51,65 @@ html{
     background-color: var(--cuba-color);
     color: #fff;
 }
+
+.btn-color.color-dubai{
+    background-color: var(--dubai-color);
+}
+.btn-color.color-cuba{
+    background-color: var(--cuba-color);
+}
+.btn-color.color-delhi{
+    background-color: var(--delhi-color);
+}
+.btn-color.color-london{
+    background-color: var(--london-color);
+}
+.btn-color.color-rome{
+    background-color: var(--rome-color);
+}
+.btn-color.color-berlin
+{
+    background-color: var(--berlin-color);
+}
+
+.bgr.color-dubai{
+    background-color: var(--dubai-color);
+}
+.bgr.color-cuba{
+    background-color: var(--cuba-color);
+}
+.bgr.color-delhi{
+    background-color: var(--delhi-color);
+}
+.bgr.color-london{
+    background-color: var(--london-color);
+}
+.bgr.color-rome{
+    background-color: var(--rome-color);
+}
+.bgr.color-berlin
+{
+    background-color: var(--berlin-color);
+}
+
+.bgr.img-dubai{
+    background-image: url(../img/dubai.jpg);
+}
+.bgr.img-cuba{
+    background-image: url(../img/cuba.jpg);
+}
+.bgr.img-delhi{
+   background-image: url(../img/new-delhi.jpg);
+}
+.bgr.img-london{
+    background-image: url(../img/LonDon.jpg);
+}
+.bgr.img-rome{
+  background-image: url(../img/rome.jpg);
+}
+.bgr.img-berlin
+{
+    background-image: url(../img/berlin.jpg);
+}
+
+
