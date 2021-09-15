@@ -145,10 +145,17 @@
         margin-left: -8px;
         margin-right: -8px;
     }
-
+    .row.no-gutters {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .col {
         padding-left: 8px;
         padding-right: 8px;
+    }
+    .row.no-gutters .col {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .m-0 {
@@ -437,8 +444,8 @@
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
     .wide {
-        width: 984px;
-    }
+        width: 984px;}
+    /* }
 
     .wide .row {
         margin-left: -12px;
@@ -587,5 +594,5 @@
 
     .wide .l-o-11 {
         margin-left: 91.66667%;
-    }
+    } */
 }

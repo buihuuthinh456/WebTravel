@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Travel</title>
     <link rel="stylesheet" href="./assets/css/grid-system.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -120,9 +120,45 @@
     <!-- Navigation -->
     <nav class="nav__container"> 
         <div class="navbar grid wide">
+            <label for="checkbox-search-mobile" class="search-mobile">
+                <i class="ti-search"></i>
+            </label>
+            <input type="checkbox" hidden class="checkbox-search" id="checkbox-search-mobile">
+            <div class="mobile-basic-container grid wide">
+                <div class="row  search-basic-mobile-container">
+                    <div class="search-basic-mobile col l-3 m-12 c-12">
+                            <input type="text" class="search-basic-mobile__keywords " placeholder="Insert Keywords">
+                    </div>
+                    <div class="search-basic-mobile col l-3 m-12 c-12">
+                        <select name="Destiantion" class="search-basic-mobile__destination ">
+                            <option value="1">All Destination</option>
+                            <option value="2">Europe</option>
+                            <option value="4">&nbsp;&nbsp;- England</option>
+                            <option value="8">&nbsp;&nbsp;- Iatalia</option>
+                            <option value="16">Asia</option>
+                            <option value="16">America</option>
+                            <option value="32">Africa</option>
+                            <option value="32">Oceania</option>
+                        </select>
+                    </div>
+                    <div class="search-basic-mobile col l-3 m-12 c-12">
+                        <select name="Typologies" class="search-basic-mobile__typologies ">
+                            <option value="1">All Typologies</option>
+                            <option value="2">Relax</option>
+                            <option value="4">Culture</option>
+                            <option value="8">Sport</option>
+                            <option value="16">History</option>
+                        </select>
+                    </div>
+                    <div class="search-basic-mobile col l-3 m-12 c-12">
+                        <span class="search-basic-mobile__btn">Search</span>
+                    </div>
+                </div>
+            </div>
             <a href="#" class="navbar-logo">
                 <img src="./assets/img/logo-navbar.png" alt="Logo" class="navbar-logo__img">
             </a>
+            <label for="checkbox-navbar-mobile" class="ti-menu-alt menu-mobile"></label>
             <ul class="navbar-list">
                 <li class="navbar-list__item">
                     <a href="#" class="navbar-list__item-link separate">
@@ -308,6 +344,153 @@
                     </a>
                 </li>
             </ul>
+            <input type="checkbox" hidden id="checkbox-navbar-mobile" class="checkbox-mobile">
+            <ul class="navbar-list-mobile">
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Home</a>
+                </li>
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Packages</a>
+                    <ul class="nav-mobile-packages">
+                        <li class="nav-mobile-packages-item">
+                            <a href="#" class="nav-mobile-packages-item__link">
+                                Search
+                            </a>
+                        </li>
+                        <li class="nav-mobile-packages-item">
+                            <a href="#" class="nav-mobile-packages-item__link">
+                                Single Packages
+                            </a>
+                        </li>
+                        <li class="nav-mobile-packages-item">
+                            <a href="#" class="nav-mobile-packages-item__link">
+                                Destination
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Shop</a>
+                    <ul class="nav-mobile-shop">
+                        <li class="nav-mobile-shop-item">
+                            <a href="#" class="nav-mobile-shop-item__link">
+                                Shop
+                            </a>
+                        </li>
+                        <li class="nav-mobile-shop-item">
+                            <a href="#" class="nav-mobile-shop-item__link">
+                                Cart
+                            </a>
+                        </li>
+                        <li class="nav-mobile-shop-item">
+                            <a href="#" class="nav-mobile-shop-item__link">
+                                Checkout
+                            </a>
+                        </li>
+                        <li class="nav-mobile-shop-item">
+                            <a href="#" class="nav-mobile-shop-item__link">
+                                My accout
+                            </a>
+                        </li>
+                    </ul>
+                </li>  
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">About us</a>
+                </li>
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Pages</a>
+                    <ul class="nav-mobile-pages">
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Best destination
+                            </a>
+                        </li>
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Staff
+                            </a>
+                        </li>
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Services
+                            </a>
+                        </li>
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Prices
+                            </a>
+                        </li>
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Faq
+                            </a>
+                        </li>
+                        <li class="nav-mobile-pages-item">
+                            <a href="#" class="nav-mobile-pages-item__link">
+                                Contact 
+                            </a>
+                            <ul class="contact-list">
+                                <li class="contact-list-item">
+                                    <a href="#" class="contact-list-item__link">
+                                        Contact 1
+                                    </a>
+                                </li>
+                                <li class="contact-list-item">
+                                    <a href="#" class="contact-list-item__link">
+                                        Contact 2
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> 
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">News</a>
+                    <ul class="nav-mobile-news">
+                        <li class="nav-mobile-news-item">
+                            <a href="#" class="nav-mobile-news-item__link">
+                                Archie
+                            </a>
+                        </li>
+                        <li class="nav-mobile-news-item">
+                            <a href="#" class="nav-mobile-news-item__link">
+                                Single post
+                            </a>
+                            <ul class="single-post-list">
+                                <li class="single-post-list-item">
+                                    <a href="#" class="single-post-list__link">
+                                        Full width
+                                    </a>
+                                </li>
+                                <li class="single-post-list-item">
+                                    <a href="#" class="single-post-list__link">
+                                        Right slidebar
+                                    </a>
+                                </li>
+                                <li class="single-post-list-item">
+                                    <a href="#" class="single-post-list__link">
+                                        Left slidebar
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Contact</a>
+                    <ul class="list-contact">
+                        <li class="list-contact-item">
+                            <a href="#" class="list-contact-item__link">Contact 1</a>
+                        </li>
+                        <li class="list-contact-item">
+                            <a href="#" class="list-contact-item__link">Contact 2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-mobile-item">
+                    <a href="#" class="nav-mobile-item__link">Book Now</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <!-- Promotion -->
@@ -338,7 +521,6 @@
                 2.400
             </div>
             <div class="slider-content__7">$</div>
-            
             <!-- Search -->
             <div class="promotion-search ">
                 <div class="search-container grid wide">
@@ -364,7 +546,7 @@
                             <div class="search-basic col l-3 m-12 c-12">
                                 <select name="Destiantion" class="search-basic__destination ">
                                     <option value="1">All Destination</option>
-                                    <option value="2">Europte</option>
+                                    <option value="2">Europe</option>
                                     <option value="4">&nbsp;&nbsp;- England</option>
                                     <option value="8">&nbsp;&nbsp;- Iatalia</option>
                                     <option value="16">Asia</option>
@@ -395,7 +577,7 @@
                             <div class="search-advanced col l-3 m-12 c-12">
                                 <select name="Destiantion" class="search-advanced__destination ">
                                     <option value="1">All Destination</option>
-                                    <option value="2">Europte</option>
+                                    <option value="2">Europe</option>
                                     <option value="4">&nbsp;&nbsp;- England</option>
                                     <option value="8">&nbsp;&nbsp;- Iatalia</option>
                                     <option value="16">Asia</option>
@@ -451,17 +633,17 @@
             <!-- Content Header -->
             <div class="promotion-content-header-container grid wide">
                 <div class="row promotion-content-header">
-                    <div class="col l-12 promotion-content-header__title">
+                    <div class="col l-12 m-12 c-12 promotion-content-header__title">
                         TOP PROMOTIONS
                     </div>
-                    <div class="col l-12 promotion-content-header__slogan">
+                    <div class="col l-12 m-12 c-12 promotion-content-header__slogan">
                         BEST TRAVEL PACKAGES AVAILABLE
                     </div>
                 </div>
             </div>
             <!-- Content Item -->
             <div class="grid wide promotion-content-item-container">
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col l-4 m-12 c-12">
                         <div class="promotion-item">
                             <img src="./assets/img/berlin.jpg" alt="Berlin" class="promotion-item__img">
@@ -488,7 +670,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 m-12 c-12">
+                    <div class="col l-4 m-12 c-12 ">
                         <div class="promotion-item">
                             <img src="./assets/img/new-delhi.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -514,7 +696,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 m-12 c-12">
+                    <div class="col l-4 m-12 c-12 ">
                         <div class="promotion-item">
                             <img src="./assets/img/LonDon.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -540,7 +722,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 m-12 c-12">
+                    <div class="col l-4 m-12 c-12 ">
                         <div class="promotion-item">
                             <img src="./assets/img/cuba.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -566,7 +748,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 m-12 c-12">
+                    <div class="col l-4 m-12 c-12 ">
                         <div class="promotion-item">
                             <img src="./assets/img/rome.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -592,7 +774,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4 m-12 c-12">
+                    <div class="col l-4 m-12 c-12 ">
                         <div class="promotion-item">
                             <img src="./assets/img/cuba.jpg" alt="Berlin" class="promotion-item__img">
                             <div class="promotion-item__name">
@@ -650,7 +832,7 @@
     </div>
     <!-- Content 2 -->
     <div class="grid wide content2-container">
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col l-3 m-12 c-12 ">
                 <div class="content2-item">
                     <img src="./assets/img/oceania.jpg" alt="Ocenia" class="content2-item__img">
@@ -681,38 +863,40 @@
     <!-- Slider 3 -->
     <div class="slider-3">
         <div class="slider-3-overlay">
-            <div class="slider-3-content">
-                <div class="slider-3-destination">
-                    <div class="slider-3-destination__quantity">
-                        75
+            <div class="slider-3-content grid wide">
+                <div class="slider-3-content-container">
+                    <div class="slider-3-destination">
+                        <div class="slider-3-destination__quantity">
+                            75
+                        </div>
+                        <a href="#" class="slider-3-destination__btn btn-color color-dubai">
+                            Destiantion
+                        </a>
                     </div>
-                    <a href="#" class="slider-3-destination__btn btn-color color-dubai">
-                        Destiantion
-                    </a>
-                </div>
-                <div class="slider-3-tourpack">
-                    <div class="slider-3-tourpack__quantity">
-                        149
+                    <div class="slider-3-tourpack">
+                        <div class="slider-3-tourpack__quantity">
+                            149
+                        </div>
+                        <a href="#" class="slider-3-tourpack__btn btn-color color-cuba">
+                            Tours Pack
+                        </a>
                     </div>
-                    <a href="#" class="slider-3-tourpack__btn btn-color color-cuba">
-                        Tours Pack
-                    </a>
-                </div>
-                <div class="slider-3-cruises">
-                    <div class="slider-3-cruises__quantity">
-                        32
+                    <div class="slider-3-cruises">
+                        <div class="slider-3-cruises__quantity">
+                            32
+                        </div>
+                        <a href="#" class="slider-3-cruises__btn btn-color color-delhi">
+                            Cruises
+                        </a>
                     </div>
-                    <a href="#" class="slider-3-cruises__btn btn-color color-delhi">
-                        Cruises
-                    </a>
-                </div>
-                <div class="slider-3-support">
-                    <div class="slider-3-support__quantity">
-                        24
+                    <div class="slider-3-support">
+                        <div class="slider-3-support__quantity">
+                            24
+                        </div>
+                        <a href="#" class="slider-3-support__btn btn-color color-london">
+                            Hour Support
+                        </a>
                     </div>
-                    <a href="#" class="slider-3-support__btn btn-color color-london">
-                        Hour Support
-                    </a>
                 </div>
             </div>
         </div>
@@ -730,8 +914,8 @@
     </div>
     <!-- Content Topic 3 -->
     <div class="grid wide">
-        <div class="row">
-            <div class="col l-3 form-register-container">
+        <div class="row container-topic3">
+            <div class="col l-3 m-12 c-12 form-register-container ">
                 <div class="form-register">
                     <div class="form-request --active js-form-request">
                         <div class="form-request__btn">
@@ -743,133 +927,147 @@
                         <div class="form-contact__btn">
                             CONTACT
                         </div>
-                    </div>
-                    <form  class="input-request js-input-request --active" >
-                        <input required type="text" class="input-request__name" placeholder="Name">
-                        <input required type="email" class="input-request__mail" placeholder="Mail">
-                        <input required type="text" class="input-request__guests" placeholder="Guests">
-                        <select name="Selection Destination" class="input-request__destination">
-                            <option value="1">Selection Destination</option>
-                            <option value="2">London</option>
-                            <option value="4">Rome</option>
-                            <option value="8">New Delhi</option>
-                            <option value="16">Dubai</option>
-                            <option value="32">Vietnamese</option>
-                        </select>
-                        <textarea name="Message1" cols="30" rows="5" class="input-request__message" 
-                        placeholder="Message"></textarea>
-                        <input type="submit"  value="SEND NOW" class="input-request__submit">
-                    </form>
-                    <div class="input-contact js-input-contact ">
-                        <h3 class="contact-numberphone">
-                            +51 2383484
-                        </h3>
-                        <h3 class="contact-content">
-                            CALL US
-                        </h3>
-                    </div>
+                    </div>                  
+                </div>
+                <form  class="input-request js-input-request --active" >
+                    <input required type="text" class="input-request__name" placeholder="Name">
+                    <input required type="email" class="input-request__mail" placeholder="Mail">
+                    <input required type="text" class="input-request__guests" placeholder="Guests">
+                    <select name="Selection Destination" class="input-request__destination">
+                        <option value="1">Selection Destination</option>
+                        <option value="2">London</option>
+                        <option value="4">Rome</option>
+                        <option value="8">New Delhi</option>
+                        <option value="16">Dubai</option>
+                        <option value="32">Vietnamese</option>
+                    </select>
+                    <textarea name="Message1" cols="30" rows="5" class="input-request__message" 
+                    placeholder="Message"></textarea>
+                    <input type="submit"  value="SEND NOW" class="input-request__submit">
+                </form>
+                <div class="input-contact js-input-contact ">
+                    <h3 class="contact-numberphone">
+                        +51 2383484
+                    </h3>
+                    <h3 class="contact-content">
+                        CALL US
+                    </h3>
                 </div>
             </div>
-            <div class="col l-9 content-3-container">
-                <div class="content-3">
-                    <div class="grid">
-                        <div class="row">
-                            <div class="col l-12">
-                                <div class="content-3-item row no-gutters">
-                                    <div class="content-3-item__img col l-4 bgr img-rome"></div>
-                                    <div class="content-3-item__info col l-6">
-                                        <a class="content-3-item__info-name">
-                                            Rome
-                                        </a>
-                                        <div class="content-3-item__info-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
-                                        </div>
-                                    </div>
-                                    <div class="content-3-item__pricebox col l-2 bgr color-rome">
-                                        <div class="content-3-item-prices">
-                                            <span class="content-3-item-prices__number">
-                                                1500
-                                            </span>
-                                            <span class="content-3-item-prices__unit">
-                                                $
-                                            </span>
-                                        </div>
-                                        <a href="#" class="content-3-item__pricebox-btn btn-color color-rome btn">
-                                            DETAILS
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="content-3-item row no-gutters">
-                                    <div class="content-3-item__img col l-4 bgr img-london"></div>
-                                    <div class="content-3-item__info col l-6">
-                                        <a class="content-3-item__info-name">
-                                            London
-                                        </a>
-                                        <div class="content-3-item__info-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
-                                        </div>
-                                    </div>
-                                    <div class="content-3-item__pricebox col l-2 bgr color-london">
-                                        <div class="content-3-item-prices">
-                                            <span class="content-3-item-prices__number">
-                                                400
-                                            </span>
-                                            <span class="content-3-item-prices__unit">
-                                                $
-                                            </span>
-                                        </div>
-                                        <a href="#" class="content-3-item__pricebox-btn btn-color color-london btn">
-                                            DETAILS
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="content-3-item row no-gutters">
-                                    <div class="content-3-item__img col l-4 bgr img-berlin"></div>
-                                    <div class="content-3-item__info col l-6">
-                                        <a class="content-3-item__info-name">
-                                            Berlin
-                                        </a>
-                                        <div class="content-3-item__info-description">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                            Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
-                                        </div>
-                                    </div>
-                                    <div class="content-3-item__pricebox col l-2 bgr color-berlin">
-                                        <div class="content-3-item-prices">
-                                            <span class="content-3-item-prices__number">
-                                                700
-                                            </span>
-                                            <span class="content-3-item-prices__unit">
-                                                $
-                                            </span>
-                                        </div>
-                                        <a href="#" class="content-3-item__pricebox-btn btn-color color-berlin btn">
-                                            DETAILS
-                                        </a>
-                                    </div>
-                                </div>
+            <div class="col l-9 m-12 c-12 content-3-container ">             
+                <div class="col l-12 m-12 c-12">
+                    <div class="content-3-item row no-gutters">
+                        <div class="content-3-item__img col l-4 m-12 c-12 bgr img-rome"></div>
+                        <div class="content-3-item__info col l-6 m-12 c-12">
+                            <a class="content-3-item__info-name">
+                                Rome
+                            </a>
+                            <div class="content-3-item__info-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                            </div>
+                        </div>
+                        <div class="content-3-item__pricebox col l-2 m-0 c-0 bgr color-rome">
+                            <div class="content-3-item-prices">
+                                <span class="content-3-item-prices__number">
+                                    1500
+                                </span>
+                                <span class="content-3-item-prices__unit">
+                                    $
+                                </span>
+                            </div>
+                            <a href="#" class="content-3-item__pricebox-btn btn-color color-rome btn">
+                                DETAILS
+                            </a>
+                        </div>
+                        <div class="content-3-item__pricebox-mobile col l-2 m-12 c-12 bgr color-rome">
+                            <div class="content-3-item-prices-mobile">
+                                <a href="#" class="content-3-item-prices__number-mobile">
+                                    1500 $
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-3-item row no-gutters">
+                        <div class="content-3-item__img col l-4 m-12 c-12 bgr img-london"></div>
+                        <div class="content-3-item__info col l-6 m-12 c-12">
+                            <a class="content-3-item__info-name">
+                                London
+                            </a>
+                            <div class="content-3-item__info-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                            </div>
+                        </div>
+                        <div class="content-3-item__pricebox col l-2 m-0 c-0 bgr color-london">
+                            <div class="content-3-item-prices">
+                                <span class="content-3-item-prices__number">
+                                    400
+                                </span>
+                                <span class="content-3-item-prices__unit">
+                                    $
+                                </span>
+                            </div>
+                            <a href="#" class="content-3-item__pricebox-btn btn-color color-london btn">
+                                DETAILS
+                            </a>
+                        </div>
+                        <div class="content-3-item__pricebox-mobile col l-2 m-12 c-12 bgr color-london">
+                            <div class="content-3-item-prices-mobile">
+                                <a href="#" class="content-3-item-prices__number-mobile">
+                                    400 $
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-3-item row no-gutters">
+                        <div class="content-3-item__img col l-4 m-12 c-12 bgr img-berlin"></div>
+                        <div class="content-3-item__info col l-6 m-12 c-12 ">
+                            <a class="content-3-item__info-name">
+                                Berlin
+                            </a>
+                            <div class="content-3-item__info-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nunc ut efficitur ante. Donec dapibus dictum scelerisque.
+                            </div>
+                        </div>
+                        <div class="content-3-item__pricebox col l-2 m-0 c-0 bgr color-berlin">
+                            <div class="content-3-item-prices">
+                                <span class="content-3-item-prices__number">
+                                    700
+                                </span>
+                                <span class="content-3-item-prices__unit">
+                                    $
+                                </span>
+                            </div>
+                            <a href="#" class="content-3-item__pricebox-btn btn-color color-berlin btn">
+                                DETAILS
+                            </a>
+                        </div>
+                        <div class="content-3-item__pricebox-mobile col l-2 m-12 c-12 bgr color-berlin">
+                            <div class="content-3-item-prices-mobile">
+                                <a href="#" class="content-3-item-prices__number-mobile">
+                                    700 $
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                      
             </div>
         </div>
     </div>
     
     <!-- Footer -->
     <div class="footer">
-        <div class="footer-contact grid ">
-            <div class="phone-support">
-                <div class="container-tempt">
+        <div class="footer-contact grid wide">
+            <div class="row footer-contact-container no-gutters">
+                <div class="phone-support col l-3 m-12 c-12">
                     <div class="phone-support__title">Phone Support</div>
                     <div class="phone-support__desription">24 HOURS A DAY</div>
                     <div class="phone-support__info">+ 01 345 647 745</div>
                 </div>
-            </div>
-            <div class="connect">
-                <div class="container-tempt">
+                <div class="connect col l-3  m-12 c-12">
                     <div class="connect__title">Connect With Us</div>
                     <div class="connect__desription">SOCIAL MEDIA CHANNELS</div>
                     <div class="connect__info">
@@ -880,15 +1078,15 @@
                         <a href="#" class="connect__info-icon ti-youtube"></a>
                     </div>
                 </div>
-            </div>
-            <div class="newsletter">
-                <div class="container-tempt">
-                    <div class="newsletter__title">Newsletter</div>
-                    <div class="newsletter__desription">SIGN UP FOR SPECIAL OFFERS</div>
-                    <form class="newsletter__info">
+                <div class="newsletter col l-6 m-12 c-12">
+                    <div class="newsletter-container">
+                        <div class="newsletter__title">Newsletter</div>
+                        <div class="newsletter__desription">SIGN UP FOR SPECIAL OFFERS</div>
+                        <form class="newsletter__info">
                         <input type="email" required class="newsletter__info-input" placeholder="Email"></input>
                         <input type="submit" value="Subscribe" class="newsletter__info-btn btn-color color-cuba">
-                    </form >
+                         </form >
+                    </div>
                 </div>
             </div>
         </div>
